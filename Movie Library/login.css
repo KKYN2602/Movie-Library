@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    /* Fixing margin */
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    /* Aligning to the right */
+    align-items: center;
+    height: 100vh;
+    background-image: url(dd.jpeg);
+}
+
+header {
+    text-align: left;
+    /* Center align the title */
+    margin-top: -600px;
+    /* Add space between the title and signup box */
+}
+
+header h1 {
+    font-size: 64px;
+    /* Adjust the font size of the title */
+    color: #d82206;
+    margin-right: 150px;
+    /* Match the color to the signup box */
+}
+
+.container {
+    display: flex;
+}
+
+.form-container {
+    background-color: #401bc8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+    /* Adding margin */
+    width: 400px;
+    /* Setting width */
+}
+
+.form-container h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: calc(100% - 20px);
+}
+
+button:hover {
+    background-color: #0056b3;
+}

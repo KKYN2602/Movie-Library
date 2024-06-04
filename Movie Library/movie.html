@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="m.css">
+    <title>Movie Search App</title>
+</head>
+
+<body>
+    <header>
+        <h1>Movie Searcher</h1>
+    </header>
+    <main>
+        <input type="text" id="searchInput" placeholder="Search" autocomplete="on">
+        <button onclick="searchMovies()">Search</button>
+        <div id="MoviesGrid"></div>
+        <h2>Selected Movies:</h2>
+        <ul id="selectedMoviesList"></ul>
+        <button onclick="addSelectedMoviesToList()">Add to List</button>
+        <h2>Added Movies:</h2>
+        <ul id="addedMoviesList"></ul>
+    </main>
+    <script src="ml.js"></script>
+</body>
+
+</html>
